@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int arr1[5];
+
+int main()
+{
+
+    int arr2[5];
+    int arr3[] = {1, 2, 3, 4, 5};
+    int arr4[5] = {1, 2, 3};
+    int arr5[5];
+    // only work with 0, -1
+    memset(arr5, -1, sizeof(arr5));
+
+    for (int i = 0; i < 5; ++i)
+    {
+        printf("%d ", arr1[i]);
+    }
+    printf("\n");
+    for (int i = 0; i < 5; ++i)
+    {
+        printf("%d ", arr2[i]);
+    }
+    printf("\n");
+    for (int i = 0; i < 5; ++i)
+    {
+        printf("%d ", arr3[i]);
+    }
+    printf("\n");
+    for (int i = 0; i < 5; ++i)
+    {
+        printf("%d ", arr4[i]);
+    }
+    printf("\n");
+    for (int i = 0; i < 5; ++i)
+    {
+        printf("%d ", arr5[i]);
+    }
+    return 0;
+}
